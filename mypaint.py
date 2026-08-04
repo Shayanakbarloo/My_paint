@@ -8,3 +8,12 @@ window.setWindowTitle("My Paint") # sets the title of the window to "My Paint" (
 window.resize(800,600) # this sets the size of our window size
 window.show() # this will display the window on the screen
 sys.exit(app.exec()) # this will keep the application running in a loop until the use closes the window
+
+# Here I have created a class called Canvas that inherits from QWidget. 
+# I have also created a superclass that will allow me to access the methods and properties of Qwidget. So I will be able to use the methods and properties of QWidget in my Canvas class and be able to add my own methods and properties to the canvas class. 
+
+class Canvas(QWidget):
+    def __init__(self):
+        super().__init__()
+        window = QWidget()
+        window = Canvas()
