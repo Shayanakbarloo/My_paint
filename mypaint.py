@@ -14,8 +14,8 @@ sys.exit(app.exec()) # this will keep the application running in a loop until th
 # Here I have created a class called Canvas that inherits from QWidget. 
 # I have also created a superclass that will allow me to access the methods and properties of Qwidget. So I will be able to use the methods and properties of QWidget in my Canvas class and be able to add my own methods and properties to the canvas class. 
 
-class Canvas(QWidget): #class Canvas that inherits from QWidget.
-    def __init__(self): 
-        super().__init__()
+class Canvas(QWidget): #class Canvas that inherits from QWidget. blueprint named Canvas, based on QWidget 
+    def __init__(self): #We made a constructor method that will be called when we create an instance of the Canvas class.
+        super().__init__() 
         window = QWidget()
         window = Canvas()
