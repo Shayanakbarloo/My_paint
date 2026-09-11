@@ -2,6 +2,8 @@ import sys # this will bring in python's built-in sys which allows us to access 
 from PySide6.QtWidgets import QApplication, QWidget # I have asked  Pyside6 library to bring in the QApplication and QWidget classes from the QtWidgets module. This will allow us to create a GUI application and a window for our paint program.
 from PySide6.QtGui import QImage, QPainter #QImage is a class that allows us to create and manipulate images in our paint program. QPainter is a class that allows us to draw on the canvas in our paint program.
 from PySide6.QtCore import Qt #bag of useful constants: color names, key codes, and so on. We need it for the color white.
+from PySide6.QtGui import QImage, QPainter, QPen, QColor
+from PySide6.QtCore import Qt, QPoint
 
 #Right now the QWidget is just a blank window. We will need to add a canvas to the window so we cann add to it 
 
